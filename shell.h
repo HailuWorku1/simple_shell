@@ -22,7 +22,7 @@ extern char **environ;
 
 typedef struct built_ins
 {
-	char *key;
+	char *key; 
 	int (*function)();
 } built_t;
 
